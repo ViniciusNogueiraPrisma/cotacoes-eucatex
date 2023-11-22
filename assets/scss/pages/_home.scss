@@ -316,6 +316,10 @@
   }
 }
 
+body {
+  background-color: transparent !important;
+}
+
 .infos-notes::after {
   content: "";
   width: 1px;
