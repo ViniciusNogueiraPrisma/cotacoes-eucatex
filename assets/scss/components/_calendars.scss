@@ -1,0 +1,335 @@
+.nav-calendario {
+  padding: 0;
+  max-width: 230px;
+  margin: 0 auto;
+
+  .slick-list {
+    padding: 0 !important;
+
+    li {
+      text-align: center;
+      color: var(--text-primary-01-var-01);
+      font-size: rem(18);
+    }
+  }
+
+  .slick-arrow {
+    top: 39%;
+
+    &::before {
+      content: "";
+      font-family: var(--font-icomoon);
+      color: var(--text-primary-01-var-01);
+      font-size: rem(28);
+    }
+  }
+
+  .slick-next {
+    &::before {
+      content: "\e909";
+    }
+  }
+  .slick-prev {
+    &::before {
+      content: "\e908";
+    }
+  }
+}
+
+.ui-datepicker-header {
+  padding: 16px 8px;
+  //   background-color: var(--grey-scale-01);
+
+  display: flex;
+  justify-content: start;
+  gap: 16px;
+
+  .ui-corner-all {
+    display: flex;
+    align-items: center;
+
+    .ui-icon {
+      height: 16px;
+      width: 20px;
+      display: block;
+
+      &::after {
+        content: url("../images/icons/icon-arrow-right.svg");
+        display: block;
+        height: 16px;
+      }
+    }
+
+    &.ui-datepicker-prev {
+      .ui-icon {
+        transform: rotate(180deg);
+      }
+    }
+
+    &.ui-datepicker-next {
+      order: 3;
+    }
+  }
+
+  .ui-datepicker-title {
+    text-align: center;
+
+    span {
+      color: #666666;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      word-wrap: break-word;
+      font-family: var(--font-text-4);
+
+      &:nth-child(1) {
+        &::after {
+          content: " /";
+        }
+      }
+    }
+  }
+}
+
+.ui-datepicker-calendar {
+  width: 100%;
+
+  thead {
+    th {
+      color: #bbbbbb;
+      font-size: 14px;
+      font-family: var(--font-text-4);
+      font-weight: 400;
+      line-height: 19.6px;
+      word-wrap: break-word;
+      //   padding: 7px 14px;
+      padding: 8px;
+      text-align: center;
+    }
+  }
+
+  tbody {
+    td {
+      a {
+        // 01
+        color: #999999 !important;
+        font-size: 18px !important;
+        font-family: var(--font-text-4);
+        font-weight: 700 !important;
+        line-height: 27px;
+        word-wrap: break-word;
+
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        // padding: 7px 14px;
+        padding: 8px;
+
+        width: 47px;
+        height: 47px;
+
+        &.yellow {
+          color: #ffc700;
+          border: 2px solid #ffc700;
+        }
+
+        &.blue {
+          color: #0eb7ff;
+          border: 2px solid #0eb7ff;
+        }
+
+        &.pink {
+          color: #e763d9;
+          border: 2px solid #e763d9;
+        }
+
+        &.green {
+          color: #2eda92;
+          border: 2px solid #2eda92;
+        }
+      }
+    }
+
+    a.ui-state-active {
+      border-radius: 50%;
+      background-color: #1d1d1d !important;
+      color: #fff !important;
+    }
+  }
+}
+
+.list-proximos-eventos {
+  padding: 0;
+  margin-top: 24px;
+
+  li {
+    display: flex;
+    gap: 8px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--text-grey-scale-01);
+    }
+
+    .date {
+      span {
+        display: block;
+        color: var(--text-secondary-01-default);
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      @media (max-width: 767px) {
+        display: flex;
+        gap: 5px;
+      }
+    }
+
+    .text {
+      flex: 1;
+
+      p {
+        margin: 0;
+        &:last-child {
+          font-size: rem(14);
+        }
+      }
+    }
+
+    .links {
+      flex: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      @media (max-width: 767px) {
+        display: flex;
+        flex-direction: row;
+        margin-top: 18px;
+      }
+    }
+  }
+}
+
+.col-calendario {
+  flex: 0 0 auto;
+  width: 35%;
+
+  @media (max-width: 992px) {
+    width: 80%;
+  }
+
+  @media (max-width: 760px) {
+    width: 100%;
+  }
+}
+
+// .col-lg-6 {
+//   border: 1px solid red;
+// }
+
+.list-calendario-eventos {
+  // background-color: #fafafa;
+  // padding: 24px;
+
+  @media (max-width: 700px) {
+    padding-left: 0;
+  }
+
+  #ContentInternal_ContentPlaceHolderConteudo_updatePanelRptEventosDoDiaSelecionado {
+    background-color: #fff;
+    padding: 24px 16px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      display: flex;
+      gap: 8px;
+      justify-content: space-around;
+      width: 100%;
+
+      @media (max-width: 700px) {
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .date-event {
+        display: flex;
+      }
+
+      .text-calendar {
+        margin: 0;
+        padding: 0;
+
+        // Nome do documento
+        color: #2d2d2d;
+        font-size: 20px;
+        font-family: var(--font-text-4);
+        font-weight: 400;
+        line-height: 30px;
+        word-wrap: break-word;
+
+        span {
+          color: #2d2d2d;
+          font-size: 20px;
+          font-family: var(--font-text-4);
+          font-weight: 400;
+          line-height: 30px;
+          word-wrap: break-word;
+        }
+      }
+
+      .date-calendar {
+        display: flex;
+
+        span {
+          // 00
+          color: #999999;
+          font-size: 18px;
+          font-family: var(--font-text-4);
+          font-weight: 400;
+          line-height: 27px;
+          word-wrap: break-word;
+        }
+      }
+    }
+  }
+}
+
+.buttons-exportar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.col-itens-calendario {
+  width: 50%;
+
+  @media (max-width: 992px) {
+    width: 100%;
+  }
+}
+
+.content-calendario {
+  display: flex;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
+}
+
+.ui-datepicker-calendar tbody tr {
+  background-color: transparent !important;
+}
+
+.nav-timeline .slick-list {
+  padding-top: 26px;
+}

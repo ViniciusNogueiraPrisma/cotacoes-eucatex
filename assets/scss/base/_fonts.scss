@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-ExtraLight.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-ExtraLight.ttf") format("truetype");
+
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-ExtraLightItalic.ttf") format("truetype");
+
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-Light.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Light.ttf") format("truetype");
+
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-LightItalic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-LightItalic.ttf") format("truetype");
+
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-Regular.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-Italic.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Italic.ttf") format("truetype");
+
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-Medium.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Medium.ttf") format("truetype");
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway-MediumItalic.woff") format("woff"),
+    url("../fonts/Raleway-MediumItalic.ttf") format("truetype");
+
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-SemiBold.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-Bold.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+
+  src: url("../fonts/Raleway/Raleway-ExtraBold.woff") format("woff"),
+    url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype");
+
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.eot?8yr2di");
+  src: url("../fonts/icomoon/icomoon.eot?8yr2di#iefix")
+      format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf?8yr2di") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?8yr2di") format("woff"),
+    url("../fonts/icomoon/icomoon.svg?8yr2di#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+
+  //   font-weight: 600;
+  //   font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+
+  src: url("../fonts/Gotham-2/GothamMedium.otf");
+}
+
+@font-face {
+  font-family: "Gotham Light";
+
+  src: url("../fonts/Gotham-2/GothamLight.otf");
+}
+
+@font-face {
+  font-family: "Gotham Narrow Thin";
+  src: url("../fonts/Gotham/Gotham-Narrow-Thin.otf");
+}
+
+@font-face {
+  font-family: "Gotham Narrow Light";
+  src: url("../fonts/Gotham/Gotham-Narrow-Light.otf");
+}
+
+// @font-face {
+//   font-family: "Gotham Two";
+//   src: url("../fonts/Gotham-2/Gotham-Light.ttf");
+// }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aumentar-fonte:before {
+  content: "\e909";
+  color: #1d1d1d;
+}
+.icon-arrow-down:before {
+  content: "\e900";
+  color: #1d1d1d;
+}
+.icon-arrow-left:before {
+  content: "\e901";
+  color: #4d4d4d;
+}
+.icon-arrow-right:before {
+  content: "\e902";
+  color: #1358bf;
+}
+.icon-busca:before {
+  content: "\e903";
+  color: #1d1d1d;
+}
+.icon-contraste:before {
+  content: "\e904";
+  color: #1d1d1d;
+}
+.icon-diminuir-fonte:before {
+  content: "\e905";
+  color: #1d1d1d;
+}
+.icon-exibir:before {
+  content: "\e906";
+  color: #1d1d1d;
+}
+.icon-alerts:before {
+  content: "\e907";
+  color: #1d1d1d;
+}
+.icon-site:before {
+  content: "\e908";
+  color: #1d1d1d;
+}

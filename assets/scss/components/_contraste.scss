@@ -1,0 +1,607 @@
+[data-theme="dark"] {
+  background-color: #1d1d1d;
+
+  // Font Family
+
+  // Text Colors
+
+  --text-color: #ffffff;
+
+  --text-white: #ffffff;
+  --text-black: #ffffff;
+
+  --text-primary-01-default: #ffffff;
+  --text-primary-01-var-1: #ffffff;
+  --text-primary-01-var-2: #ffffff;
+
+  --text-secondary-01-default: #ffffff;
+  --text-secondary-01-var-1: #ffffff;
+  --text-secondary-01-var-2: #ffffff;
+
+  --text-grey-scale-00: #ffffff;
+  --text-grey-scale-01: #ffffff;
+  --text-grey-scale-02: #ffffff;
+  --text-grey-scale-03: #ffffff;
+  --text-grey-scale-04: #ffffff;
+  --text-grey-scale-05: #ffffff;
+
+  --text-grey-scale-c4: #ffffff;
+
+  --text-disabled: #ffffff;
+
+  // Solid Colors
+
+  --pure-white: #1d1d1d;
+  --pure-black: #1d1d1d;
+
+  --primary-01-default: #1d1d1d;
+  --primary-01-var-1: #1d1d1d;
+  --primary-01-var-2: #1d1d1d;
+
+  --secondary-01-default: #1d1d1d;
+  --secondary-01-var-1: #1d1d1d;
+  --secondary-01-var-2: #1d1d1d;
+
+  --grey-scale-00: #1d1d1d;
+  --grey-scale-01: #1d1d1d;
+  --grey-scale-02: #1d1d1d;
+  --grey-scale-03: #1d1d1d;
+  --grey-scale-04: #1d1d1d;
+  --grey-scale-05: #1d1d1d;
+  --grey-scale-06: #1d1d1d;
+  --grey-scale-07: #1d1d1d;
+  --grey-scale-F2F2: #1d1d1d;
+
+  --system-disabled: #bfbfbf;
+
+  --system-link: #1a0dab;
+  --system-link-visited: #1b1466;
+  --system-negative: #d23a20;
+  --system-alert: #ecb307;
+  --system-positive: #1e986f;
+}
+
+[data-theme="dark"] {
+  .acessibillity-bar {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .logo-header {
+    img {
+      filter: contrast(0.5) brightness(18);
+    }
+  }
+
+  .header .content .header-right-side button {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .notes-home {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .notes-home .notes-home-content .infos-notes h1 {
+    color: #fff !important;
+  }
+
+  .banner-content .banner-itens a {
+    background-color: var(--grey-scale-00) !important;
+    color: #fff !important;
+  }
+
+  .acessibillity-bar .content .right-top-header .accessibility-tools > a small {
+    color: #fff !important;
+  }
+
+  .icon-contraste:before {
+    color: #fff !important;
+  }
+
+  .icon-aumentar-fonte:before {
+    color: #fff !important;
+  }
+
+  .icon-diminuir-fonte:before {
+    color: #fff !important;
+  }
+
+  .acessibillity-bar .content .right-top-header .drop-idiomas .dropdown-toggle {
+    color: #fff !important;
+  }
+
+  .acessibillity-bar
+    .content
+    .right-top-header
+    .drop-idiomas
+    .dropdown-toggle.show {
+    color: #fff !important;
+  }
+
+  .infos-notes::after {
+    background-color: #fff !important;
+  }
+
+  .home-cast-content {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .section-destaque-calendar-resultados .row > div > h2 {
+    color: #fff !important;
+  }
+
+  .list-destaques li a {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .section-destaque-calendar-resultados .row .footer-central-result-home a {
+    color: #fff !important;
+    border: 1px solid #fff !important;
+  }
+
+  .notes-home-content .infos-notes h1 {
+    color: #fff !important;
+  }
+
+  .notes-home-content .infos-notes span {
+    color: #fff !important;
+  }
+
+  .section-create-mailing-bg-blue {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .section-create-mailing-bg-blue h3 {
+    color: #fff !important;
+  }
+
+  .form-mailing-home span {
+    color: #fff !important;
+  }
+
+  .section-create-mailing-bg-blue .form-mailing-home .div-input input {
+    border: 1px solid #fff !important;
+  }
+
+  .section-create-mailing-bg-blue .form-mailing-home .primary-button {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+  }
+
+  .home-cast-content .home-cast-itens h1 {
+    color: #fff !important;
+  }
+
+  .notes-home .notes-home-content .infos-notes span {
+    color: #fff !important;
+  }
+
+  .icon-exibir:before {
+    color: #fff !important;
+  }
+
+  .infos-mailing-home {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .infos-mailing-home .fale-ri-home .content-ri h1 {
+    color: #fff !important;
+  }
+
+  .infos-mailing-home .fale-ri-home .content-ri h3 {
+    color: #fff !important;
+  }
+
+  .infos-mailing-home .fale-ri-home .content-ri span {
+    color: #fff !important;
+  }
+
+  .infos-mailing-home .fale-ri-home .content-ri h2 {
+    color: #fff !important;
+  }
+
+  .entrar-contato-ri {
+    color: #fff !important;
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .footer-container-main {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .endereco-footer h5 {
+    color: #fff !important;
+  }
+
+  .footer-links h5 {
+    color: #fff !important;
+  }
+
+  .footer-hist h5 {
+    color: #fff !important;
+  }
+
+  .footer-links-a a {
+    color: #fff !important;
+  }
+
+  .endereco-footer p {
+    color: #fff !important;
+  }
+
+  .footer-hist a {
+    color: #fff !important;
+  }
+
+  .redes-footer span {
+    color: #fff !important;
+  }
+
+  .contato-footer h5 {
+    color: #fff !important;
+  }
+
+  .contato-footer p {
+    color: #fff !important;
+  }
+
+  .footer {
+    background-color: var(--grey-scale-00) !important;
+  }
+
+  .nav-central-result-destaque .item-nav-central-result h3 {
+    color: #fff !important;
+  }
+
+  .list-destaques li a img {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .infos-notes span img {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .link-com-arrow::after,
+  .link-com-download::after {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .mailing-home-div img {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .infos-mailing-home .fale-ri-home img {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .imgs-redes-footer {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .nav-menu-header
+    .header-navigation-item:nth-of-type(6)
+    .dropdown-toggle::before {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .icon-busca:before {
+    color: #fff !important;
+  }
+
+  .header-interno .info-header-interno .header-title {
+    color: #fff !important;
+  }
+
+  .flex-content-timeline-text h2 {
+    color: #fff !important;
+  }
+
+  .flex-content-timeline-text p {
+    color: #fff !important;
+  }
+
+  .section-perfil {
+    background-color: #1d1d1d !important;
+  }
+
+  .container-perfil-timeline h1 {
+    color: #fff !important;
+  }
+
+  .container-perfil-timeline p {
+    color: #fff !important;
+  }
+
+  .logos-header img {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .accordion .accordion-header button {
+    background-color: #1d1d1d !important;
+    color: #fff !important;
+  }
+
+  .accordion .accordion-header button::after {
+    color: #fff !important;
+  }
+
+  .accordion .accordion-collapse .accordion-body {
+    background-color: #1d1d1d !important;
+  }
+
+  .accordion .accordion-header button:not(.collapsed) {
+    background-color: #1d1d1d !important;
+    color: #fff !important;
+  }
+
+  .accordion .accordion-header button:not(.collapsed)::after {
+    color: #fff !important;
+  }
+
+  .accordion .accordion-collapse .accordion-body p {
+    color: #fff !important;
+  }
+
+  .form-select-filtro select {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .cards-video {
+    background-color: #1d1d1d !important;
+    border: 1px solid #fff;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+
+  .cards-video .infos-video span {
+    color: #fff !important;
+  }
+
+  .cards-video .infos-video h1 {
+    color: #fff !important;
+  }
+
+  .cards-video .infos-video a {
+    color: #fff !important;
+  }
+
+  .table thead tr {
+    background-color: #1d1d1d !important;
+  }
+
+  .table thead tr th {
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
+  }
+
+  .table tbody tr td {
+    color: #fff !important;
+  }
+
+  .table tbody tr td img {
+    filter: contrast(0.5) brightness(14.5);
+  }
+
+  .list-downloads li a p {
+    color: #fff !important;
+  }
+
+  .list-downloads li > div > img {
+    filter: contrast(0) brightness(3.5) !important;
+  }
+
+  .list-downloads li:hover {
+    background-color: rgb(94, 94, 94) !important;
+  }
+
+  .list-downloads li > div {
+    background-color: #1d1d1d !important;
+  }
+
+  .container-calendario h2 {
+    color: #fff !important;
+  }
+
+  .ui-datepicker-header .ui-datepicker-title span {
+    color: #fff !important;
+  }
+
+  .ui-datepicker-header .ui-corner-all .ui-icon::after {
+    filter: contrast(0) brightness(20);
+  }
+
+  .ui-datepicker-calendar thead th {
+    color: #fff !important;
+  }
+
+  .ui-datepicker-calendar tbody td a {
+    color: #fff !important;
+  }
+
+  .li-cores-calendario {
+    background-color: #3a3a3a;
+  }
+  .li-cores-calendario li p {
+    color: #fff !important;
+  }
+
+  .title-eventos-realizados {
+    color: #fff !important;
+  }
+
+  .list-calendario-eventos
+    #ContentInternal_ContentPlaceHolderConteudo_updatePanelRptEventosDoDiaSelecionado {
+    background-color: #1d1d1d !important;
+  }
+
+  .list-calendario-eventos
+    #ContentInternal_ContentPlaceHolderConteudo_updatePanelRptEventosDoDiaSelecionado
+    li
+    .date-calendar
+    span {
+    color: #fff !important;
+  }
+
+  .list-calendario-eventos
+    #ContentInternal_ContentPlaceHolderConteudo_updatePanelRptEventosDoDiaSelecionado
+    li
+    .text-calendar
+    span {
+    color: #fff !important;
+  }
+
+  .list-nav-glossario .slick-track li.slick-current div a {
+    color: #fff !important;
+  }
+
+  .for-glossario-conteudo .slick-list li h2 {
+    color: #fff !important;
+  }
+
+  .list-paginacao li.active a {
+    color: #fff !important;
+    border: 1px solid #fff !important;
+  }
+
+  .list-paginacao li a {
+    color: #868686 !important;
+    border: 1px solid #868686 !important;
+  }
+
+  .accordion-body h3 {
+    color: #fff !important;
+  }
+
+  .cards-video .infos-video a::before {
+    filter: contrast(0.5) brightness(12.5);
+  }
+
+  .table-accordion-adm tbody tr td:first-child span {
+    color: #000;
+  }
+
+  tr:nth-child(even) {
+    background-color: transparent !important;
+  }
+
+  #mainInternal a {
+    color: #fff !important;
+  }
+
+  .form-contact-us .buttons-group .primary-button {
+    background-color: transparent !important;
+    color: #fff !important;
+    border: 1px solid #fff;
+  }
+
+  h2,
+  .h2 {
+    color: #fff;
+  }
+
+  .list-resultados-busca li {
+    border: 1px solid #fff;
+  }
+
+  .bt-content {
+    color: #fff !important;
+  }
+
+  .container.container-estrategia p {
+    color: #fff !important;
+  }
+
+  .header-navigation-item:nth-child(1):hover {
+    background-color: #232323 !important;
+
+    .dropdown-toggle::before {
+      filter: contrast(0.5) brightness(18);
+    }
+
+    .dropdown-menu {
+      background-color: #232323 !important;
+    }
+  }
+
+  .header-navigation-item:nth-child(2):hover {
+    background-color: #232323 !important;
+
+    .dropdown-toggle::before {
+      filter: contrast(0.5) brightness(18);
+    }
+
+    .dropdown-menu {
+      background-color: #232323 !important;
+    }
+  }
+
+  .header-navigation-item:nth-child(3):hover {
+    background-color: #232323 !important;
+
+    .dropdown-toggle::before {
+      filter: contrast(0.5) brightness(18);
+    }
+
+    .dropdown-menu {
+      background-color: #232323 !important;
+    }
+  }
+
+  .header-navigation-item:nth-child(4):hover {
+    background-color: #232323 !important;
+
+    .dropdown-toggle::before {
+      filter: contrast(0.5) brightness(18);
+    }
+
+    .dropdown-menu {
+      background-color: #232323 !important;
+    }
+  }
+
+  .header-navigation-item:nth-child(5):hover {
+    background-color: #232323 !important;
+
+    .dropdown-toggle::before {
+      filter: contrast(0.5) brightness(18);
+    }
+
+    .dropdown-menu {
+      background-color: #232323 !important;
+    }
+  }
+
+  .header-navigation-item:nth-child(6):hover {
+    background-color: #232323 !important;
+
+    .dropdown-toggle::before {
+      filter: contrast(0.5) brightness(18);
+    }
+
+    .dropdown-menu {
+      background-color: #232323 !important;
+    }
+  }
+
+  .header
+    .content
+    .nav-menu-header
+    > ul
+    .header-navigation-item
+    .dropdown-menu
+    li
+    .dropdown-item:hover {
+    color: #fafafa !important;
+  }
+
+  .notes-home .notes-home-content .infos-notes h1 {
+    color: #fff !important;
+  }
+
+  .notes-home .notes-home-content .infos-notes span {
+    color: #fff !important;
+  }
+
+  .infos-notes::after {
+    background-color: #fff !important;
+  }
+}

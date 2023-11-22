@@ -1,0 +1,105 @@
+.primary-button,
+.secondary-button {
+  box-shadow: none;
+
+  font-family: "Gotham Narrow Light" !important;
+
+  border: 1px solid;
+  border-radius: 2px;
+
+  padding: 8px 24px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: rem(14);
+  font-weight: 400;
+  line-height: rem(24.8);
+
+  text-align: center;
+  text-decoration: none;
+
+  &:disabled {
+    cursor: not-allowed;
+
+    border-color: var(--system-disabled);
+    color: var(--text-white);
+    background-color: var(--system-disabled);
+
+    &:hover,
+    &:focus {
+      border-color: inherit;
+      color: inherit;
+      background-color: inherit;
+    }
+  }
+}
+
+.primary-button {
+  border-color: var(--primary-button);
+  color: var(--pure-black);
+  background-color: var(--primary-button);
+  border-radius: 2px;
+
+  &:hover {
+    border-color: var(--primary-button);
+    color: var(--pure-black);
+    background-color: var(--primary-button);
+  }
+
+  &:focus,
+  &:active {
+    border-color: var(--primary-button);
+    background-color: var(--primary-button);
+    color: var(--pure-black);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+
+    border-color: var(--system-disabled);
+    color: var(--text-white);
+    background-color: var(--system-disabled);
+
+    &:hover,
+    &:focus {
+      border-color: inherit;
+      color: inherit;
+      background-color: inherit;
+    }
+  }
+}
+
+.secondary-button {
+  border-color: var(--text-secondary-01-default);
+  color: var(--text-primary-01-default);
+  background-color: transparent;
+
+  &:hover {
+    border-color: var(--text-secondary-01-var-1);
+    color: var(--text-secondary-01-var-1);
+    background-color: transparent;
+  }
+
+  &:focus {
+    border-color: var(--text-secondary-01-var-2);
+    color: var(--secondary-01-default);
+    background-color: var(--text-secondary-01-var-2);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+
+    border-color: var(--system-disabled);
+    color: var(--system-disabled);
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+      border-color: inherit;
+      color: inherit;
+      background-color: inherit;
+    }
+  }
+}
